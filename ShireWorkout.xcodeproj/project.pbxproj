@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83BFC5842CB04B0D0056DF80 /* WorkoutUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFC5832CB04B0D0056DF80 /* WorkoutUseCaseTests.swift */; };
 		83D06AE62C8E6E8900125635 /* ShireWorkoutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06AE52C8E6E8900125635 /* ShireWorkoutApp.swift */; };
 		83D06AE82C8E6E8900125635 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06AE72C8E6E8900125635 /* ContentView.swift */; };
 		83D06AEA2C8E6E8B00125635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D06AE92C8E6E8B00125635 /* Assets.xcassets */; };
@@ -14,6 +15,17 @@
 		83D06AF72C8E6E8B00125635 /* ShireWorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06AF62C8E6E8B00125635 /* ShireWorkoutTests.swift */; };
 		83D06B012C8E6E8B00125635 /* ShireWorkoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06B002C8E6E8B00125635 /* ShireWorkoutUITests.swift */; };
 		83D06B032C8E6E8B00125635 /* ShireWorkoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06B022C8E6E8B00125635 /* ShireWorkoutUITestsLaunchTests.swift */; };
+		83D06B112C8E6EE300125635 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06B102C8E6EE300125635 /* Exercise.swift */; };
+		83D06B132C8E6F9B00125635 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06B122C8E6F9B00125635 /* Section.swift */; };
+		83D06B152C8E6FF400125635 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06B142C8E6FF400125635 /* Workout.swift */; };
+		83D06B1B2C8E7A2A00125635 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06B1A2C8E7A2A00125635 /* String+Ext.swift */; };
+		83D06B1D2C8E7BBD00125635 /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06B1C2C8E7BBD00125635 /* DateFormatter+Ext.swift */; };
+		83D06B1F2C8FEA9B00125635 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D06B1E2C8FEA9B00125635 /* ContentViewModel.swift */; };
+		83E82A7D2CE19194005F2BBD /* InjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E82A7C2CE19194005F2BBD /* InjectionKey.swift */; };
+		83E82A7F2CE191AC005F2BBD /* InjectedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E82A7E2CE191AC005F2BBD /* InjectedValues.swift */; };
+		83E82A812CE191CE005F2BBD /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E82A802CE191CE005F2BBD /* Injected.swift */; };
+		83E82A842CE1939F005F2BBD /* WorkoutRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E82A832CE1939A005F2BBD /* WorkoutRepository.swift */; };
+		83E82A872CE19685005F2BBD /* GetWorkoutsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E82A862CE1967C005F2BBD /* GetWorkoutsUseCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83BFC5832CB04B0D0056DF80 /* WorkoutUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutUseCaseTests.swift; sourceTree = "<group>"; };
 		83D06AE22C8E6E8900125635 /* ShireWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShireWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D06AE52C8E6E8900125635 /* ShireWorkoutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShireWorkoutApp.swift; sourceTree = "<group>"; };
 		83D06AE72C8E6E8900125635 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,17 @@
 		83D06AFC2C8E6E8B00125635 /* ShireWorkoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShireWorkoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D06B002C8E6E8B00125635 /* ShireWorkoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShireWorkoutUITests.swift; sourceTree = "<group>"; };
 		83D06B022C8E6E8B00125635 /* ShireWorkoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShireWorkoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83D06B102C8E6EE300125635 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		83D06B122C8E6F9B00125635 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		83D06B142C8E6FF400125635 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		83D06B1A2C8E7A2A00125635 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		83D06B1C2C8E7BBD00125635 /* DateFormatter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Ext.swift"; sourceTree = "<group>"; };
+		83D06B1E2C8FEA9B00125635 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		83E82A7C2CE19194005F2BBD /* InjectionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionKey.swift; sourceTree = "<group>"; };
+		83E82A7E2CE191AC005F2BBD /* InjectedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedValues.swift; sourceTree = "<group>"; };
+		83E82A802CE191CE005F2BBD /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
+		83E82A832CE1939A005F2BBD /* WorkoutRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRepository.swift; sourceTree = "<group>"; };
+		83E82A862CE1967C005F2BBD /* GetWorkoutsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWorkoutsUseCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +118,15 @@
 		83D06AE42C8E6E8900125635 /* ShireWorkout */ = {
 			isa = PBXGroup;
 			children = (
-				83D06AE52C8E6E8900125635 /* ShireWorkoutApp.swift */,
-				83D06AE72C8E6E8900125635 /* ContentView.swift */,
 				83D06AE92C8E6E8B00125635 /* Assets.xcassets */,
+				83D06AE72C8E6E8900125635 /* ContentView.swift */,
+				83D06B1E2C8FEA9B00125635 /* ContentViewModel.swift */,
+				83D06AE52C8E6E8900125635 /* ShireWorkoutApp.swift */,
+				83D06B0F2C8E6ECF00125635 /* Models */,
 				83D06AEB2C8E6E8B00125635 /* Preview Content */,
+				83E82A822CE19380005F2BBD /* Repositories */,
+				83E82A852CE1966F005F2BBD /* UseCases */,
+				83D06B192C8E7A1C00125635 /* Utilities */,
 			);
 			path = ShireWorkout;
 			sourceTree = "<group>";
@@ -114,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				83D06AF62C8E6E8B00125635 /* ShireWorkoutTests.swift */,
+				83BFC5832CB04B0D0056DF80 /* WorkoutUseCaseTests.swift */,
 			);
 			path = ShireWorkoutTests;
 			sourceTree = "<group>";
@@ -125,6 +155,52 @@
 				83D06B022C8E6E8B00125635 /* ShireWorkoutUITestsLaunchTests.swift */,
 			);
 			path = ShireWorkoutUITests;
+			sourceTree = "<group>";
+		};
+		83D06B0F2C8E6ECF00125635 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				83D06B102C8E6EE300125635 /* Exercise.swift */,
+				83D06B122C8E6F9B00125635 /* Section.swift */,
+				83D06B142C8E6FF400125635 /* Workout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83D06B192C8E7A1C00125635 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				83E82A7B2CE1917B005F2BBD /* DependencyInjection */,
+				83D06B1A2C8E7A2A00125635 /* String+Ext.swift */,
+				83D06B1C2C8E7BBD00125635 /* DateFormatter+Ext.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		83E82A7B2CE1917B005F2BBD /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				83E82A802CE191CE005F2BBD /* Injected.swift */,
+				83E82A7E2CE191AC005F2BBD /* InjectedValues.swift */,
+				83E82A7C2CE19194005F2BBD /* InjectionKey.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		83E82A822CE19380005F2BBD /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				83E82A832CE1939A005F2BBD /* WorkoutRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		83E82A852CE1966F005F2BBD /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				83E82A862CE1967C005F2BBD /* GetWorkoutsUseCase.swift */,
+			);
+			path = UseCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +333,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D06B1D2C8E7BBD00125635 /* DateFormatter+Ext.swift in Sources */,
+				83E82A842CE1939F005F2BBD /* WorkoutRepository.swift in Sources */,
+				83E82A7D2CE19194005F2BBD /* InjectionKey.swift in Sources */,
+				83E82A7F2CE191AC005F2BBD /* InjectedValues.swift in Sources */,
+				83D06B1B2C8E7A2A00125635 /* String+Ext.swift in Sources */,
 				83D06AE82C8E6E8900125635 /* ContentView.swift in Sources */,
+				83D06B132C8E6F9B00125635 /* Section.swift in Sources */,
+				83E82A872CE19685005F2BBD /* GetWorkoutsUseCase.swift in Sources */,
+				83E82A812CE191CE005F2BBD /* Injected.swift in Sources */,
+				83D06B1F2C8FEA9B00125635 /* ContentViewModel.swift in Sources */,
 				83D06AE62C8E6E8900125635 /* ShireWorkoutApp.swift in Sources */,
+				83D06B152C8E6FF400125635 /* Workout.swift in Sources */,
+				83D06B112C8E6EE300125635 /* Exercise.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D06AF72C8E6E8B00125635 /* ShireWorkoutTests.swift in Sources */,
+				83BFC5842CB04B0D0056DF80 /* WorkoutUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
